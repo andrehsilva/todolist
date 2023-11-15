@@ -6,4 +6,4 @@ from . models import Todo
 
 def todo_list(request):
     todos = Todo.objects.all()
-    return render(request, 'todos/todo_list.html')
+    return render(request, 'todo_list.html')
